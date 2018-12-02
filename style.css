@@ -7,8 +7,179 @@
     margin: 0;
     padding: 0;
   }
+
+  main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+  }
   
   .logo > img {
-    width: 50px;
+    width: 11vw;
   }
+
+  header {
+      padding: 2%;
+      font-size: 3.6vw;
+  }
+
+  .navbar {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      background: gray;
+      height: 22px;
+      color: white;
+      padding-right: 3px;
+      margin-bottom: 4px;
+  }
+
+  .menu {
+      display: none;
+
+  }
+
+  .product {
+      width: 85vw;
+      border: 1px solid lightgray;
+      border-radius: 1%;
+      padding: 5px 5px;
+      margin: 1px auto;
+      font-size: 4.2vw;
+  }
+
+  .product > i, h2 {
+      display: flex;
+      justify-content: center;
+
+  }
+
+  h1 {
+      margin-top: 13px;
+  }
+
+  h2 {
+      font-size: 1.4em;
+      font-weight: 300;
+  }
+
+  hr {
+      display: none;
+  }
+
+  .product > i {
+      font-size: 3.9em;
+  }
+
+  footer > ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      padding: 0;
+      margin: 10px;
+
+
+  }
+
+  @media screen and (max-width: 767px) {
+      header {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+  }
+
+  @media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 2.0vw;
+        height: 87px;
+        padding-right: 103px;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .logo > img {
+        width: 6vw;
+    }
+
+    .product {
+        width: 82vw;
+        font-size: 2vw;
+    }
+
+    hr {
+        display: block;
+    }
+
+    footer {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: -11px 14px;
+    }
+
+    .product {
+        margin: 1.5vw;
+        width: 33vw;
+        height: 25vw;
+        font-size: 1.35vw;
+    }
+
+    header {
+        font-size: 1.3vw;
+        padding-right: 230px;
+    }
+
+    .logo > img {
+        width: 3.5vw;
+        margin-right: 53px;
+    }
+
+    .menu {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      margin-right: -30px;
+
+  }
+
+  .menu > li {
+    padding-right: 46px;
+    font-size: 1.2vw;
+}
+
+  .navbar {
+      height: 3.6vw;
+  }
+
+  .hamburger {
+      display: none;
+  }
+
+    h1 {
+        margin-right: 100px;
+    }
+
+    hr {
+        display: block;
+    }
+
+    footer {
+        font-size: 1.9vw;
+    }
   
