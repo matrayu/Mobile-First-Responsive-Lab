@@ -99,11 +99,19 @@
         align-items: center;
         font-size: 2.0vw;
         height: 87px;
-        padding-right: 103px;
+        padding-right: 124px;
     }
 
     h1 {
         margin: 0;
+    }
+
+    .navbar {
+        height: 44px;
+    }
+
+    .hamburger {
+        font-size: 3.2vw;
     }
 
     .logo > img {
@@ -111,16 +119,22 @@
     }
 
     .product {
-        width: 82vw;
-        font-size: 2vw;
+        width: 83vw;
+        height: 35vw;
+        font-size: 2.6vw;
     }
 
     hr {
         display: block;
+        margin-bottom: 0;
     }
 
     footer {
-        font-size: 2.5vw;
+        font-size: 3.3vw;
+    }
+
+    .social {
+        margin-top: 1vw;
     }
 }
 
@@ -180,6 +194,9 @@
     }
 
     footer {
+        display: flex;
+        position: absolute;
+        bottom: 0;
         font-size: 1.9vw;
     }
   
