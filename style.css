@@ -42,6 +42,7 @@
 
   .product {
       width: 85vw;
+      height: 70vw;
       border: 1px solid lightgray;
       border-radius: 1%;
       padding: 5px 5px;
@@ -60,7 +61,7 @@
   }
 
   h2 {
-      font-size: 1.4em;
+      font-size: 1.6em;
       font-weight: 300;
   }
 
@@ -69,7 +70,7 @@
   }
 
   .product > i {
-      font-size: 3.9em;
+      font-size: 22vw;
   }
 
   footer > ul {
@@ -121,10 +122,15 @@
     .product {
         width: 83vw;
         height: 35vw;
-        font-size: 2.6vw;
+        font-size: 2.4vw;
+        margin-top: 5px;
     }
 
-    hr {
+    .product > i {
+        font-size: 11vw;
+    }
+
+    .divider {
         display: block;
         margin-bottom: 0;
     }
@@ -150,8 +156,12 @@
     .product {
         margin: 1.5vw;
         width: 33vw;
-        height: 25vw;
-        font-size: 1.35vw;
+        height: 24vw;
+        font-size: 1.30vw;
+    }
+
+    .product > i {
+        font-size: 8vw;
     }
 
     header {
@@ -169,13 +179,12 @@
       display: flex;
       flex-direction: row;
       margin-right: -30px;
+    }
 
-  }
-
-  .menu > li {
-    padding-right: 46px;
-    font-size: 1.2vw;
-}
+    .menu > li {
+        padding-right: 46px;
+        font-size: 1.2vw;
+    }
 
   .navbar {
       height: 3.6vw;
@@ -194,9 +203,8 @@
     }
 
     footer {
-        display: flex;
-        position: absolute;
-        bottom: 0;
         font-size: 1.9vw;
     }
+
+}
   
